@@ -1,0 +1,1 @@
+# Tercera_Pre_Entrega_Zenarruza se trata de una pagina web de compra y venta de equipamento de gimnasio. Posee las categorias Barras, Bancas, Discos y Poleas. Desde la pagina principal se puede acceder a la seccion especifica de cada objeto.
