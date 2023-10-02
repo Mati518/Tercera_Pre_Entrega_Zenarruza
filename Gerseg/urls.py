@@ -12,8 +12,8 @@ urlpatterns = [
     path("fCliente/", fCliente, name="fCliente"),
     path("fDiscos/", fDiscos, name="fDiscos"),
     path("fRacks/", fRacks, name="fRacks"),
-    path("resultadosBancas", resultadosBancas, name="resultadoBancas"),
-    path("resultadosBarras", resultadosBarras, name="resultadoBarras"),
-    path("resultadosDiscos", resultadosDiscos, name="resultadoDiscos"),
-    path("resultadosRacks", resultadosRacks, name="resultadoRacks"),
+    path("resultadosBancas/", resultadosBancas, name="resultadoBancas"),
+    path("resultadosBarras/", resultadosBarras, name="resultadoBarras"),
+    path("resultadosDiscos/", resultadosDiscos, name="resultadoDiscos"),
+    path("resultadosRacks/", resultadosRacks, name="resultadoRacks"),
 ]

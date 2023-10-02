@@ -9,11 +9,13 @@ Barras
 {% endblock %}
 
 {% block descripcion %}
-<form action="/Gerseg/views.py/resultadosBarras/" method="GET">
+<form action="/Gerseg/resultadosBarras/" method="GET">
     <input type="text" name="marca" id="marca">
     <input type="submit" value="Buscar">
 </form>
 
 <p>estamos buscando la marca: {{marca}} </p>
+<br>
+<p>sus medidas son: {{Barras.medidas}} </p>
 
 {% endblock %}

@@ -109,7 +109,7 @@ def sBarras(request):
 def resultadosBarras(request):
      if request.GET["marca"]:
           marca = request.GET["marca"]
-          medidas = Bancas.objects.filter(marca__icontains = marca)
+          medidas = Barras.objects.filter(marca__icontains = marca)
           return render(request, "Gerseg/barras.html", {"marca":marca , "medidas":medidas })
      else:
 
@@ -123,7 +123,7 @@ def sDiscos(request):
 def resultadosDiscos(request):
      if request.GET["marca"]:
           marca = request.GET["marca"]
-          medidas = Bancas.objects.filter(marca__icontains = marca)
+          medidas = Discos.objects.filter(marca__icontains = marca)
           return render(request, "Gerseg/discos.html", {"marca":marca , "medidas":medidas })
      else:
 
@@ -137,7 +137,7 @@ def sRacks(request):
 def resultadosRacks(request):
      if request.GET["marca"]:
           marca = request.GET["marca"]
-          medidas = Bancas.objects.filter(marca__icontains = marca)
+          medidas = Racks.objects.filter(marca__icontains = marca)
           return render(request, "Gerseg/racks.html", {"marca":marca , "medidas":medidas })
      else:
 
